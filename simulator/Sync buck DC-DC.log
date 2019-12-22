@@ -1,0 +1,29 @@
+Circuit: * C:\Users\NeoProg\Desktop\DC-DC\branches\v1.00\simulator\Sync buck DC-DC.asc
+
+C5: both pins shorted together -- ignoring.
+Limiting rise time of source i2 to 0.0005
+Limiting fall time of source i2 to 0.0005
+Limiting rise time of source v3 to 6e-007
+Limiting fall time of source v3 to 6e-007
+Limiting rise time of source v2 to 1e-006
+Limiting fall time of source v2 to 1e-006
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.0189297 to 0.0189297
+
+Date: Sun Nov 03 21:50:56 2019
+Total elapsed time: 19.818 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2379805
+traniter = 2379793
+tranpoints = 736354
+accept = 529759
+rejected = 206596
+matrix size = 33
+fillins = 30
+solver = Normal
+Matrix Compiler1: 3.16 KB object code size  1.1/0.6/[0.3]
+Matrix Compiler2: 3.44 KB object code size  0.4/0.6/[0.3]
+

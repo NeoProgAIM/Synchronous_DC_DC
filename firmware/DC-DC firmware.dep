@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3397013044</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\stm32f030x4.icf</file>
+            <file>$PROJ_DIR$\src\startup_stm32f0xx.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f0xx.o</file>
+            <file>$PROJ_DIR$\lib\CMSIS\system_stm32f0xx.c</file>
+            <file>$PROJ_DIR$\src\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\src\gate_pwm.h</file>
+            <file>$PROJ_DIR$\lib\CMSIS\core_cm0.h</file>
+            <file>$PROJ_DIR$\lib\CMSIS\stm32f0xx.h</file>
+            <file>$PROJ_DIR$\lib\CMSIS\system_stm32f0xx.h</file>
+            <file>$PROJ_DIR$\src\clocks_cfg.h</file>
+            <file>$PROJ_DIR$\lib\CMSIS\startup_stm32f030.s</file>
+            <file>$PROJ_DIR$\lib\CMSIS\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\src\gate_pwm.c</file>
+            <file>$PROJ_DIR$\lib\CMSIS\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f030.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gate_pwm.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\DC-DC firmware.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\gate_pwm.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f0xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f0xx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f0xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gate_pwm.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\startup_stm32f0xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\CMSIS\system_stm32f0xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 9 26 17 36 27 6 28 14 29 35 16 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11 35 16 9 26 17 36 29 10 14 27 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 26 17 36 27 6 28 12 10 9 14 29 35 16 11 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17 9 14 26 29 10 12 21 36 27 28 11 8 16 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\CMSIS\startup_stm32f030.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\gate_pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 26 17 36 27 6 28 10 9 14 29 35 16 11 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36 27 12 28 11 16 29 10 26 17 9 35 8 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 23 33 18 25 0 24 34 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
